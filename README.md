@@ -10,7 +10,7 @@ python -m pip install mediapipe opencv-python
 ```
 
 ### 2. Download face_landmark.task from here or url.
-In face_landmark.py, there's an download codes already. \\
+In face_landmark.py, there's an download codes already.  <br>
 Without download from this repository, code is available.
 
 ```
@@ -34,11 +34,11 @@ FaceLandmarkerResult
 ├── face_blendshapes : []
 └── facial_transformation_matrixes : []
 ```
-For the "result", output of the ==extract_landmark== \\
+For the "result", output of the 'extract_landmark'  <br>
 j-th landmark of i-th face is represented below,
 ```
 lm = result.face_landmarks[i][j]
-lm.x, lm,y, lm.z
+x, y, z = lm.x, lm,y, lm.z
 ```
 And, given an image of size (W, H):
 ```
